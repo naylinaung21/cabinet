@@ -34,11 +34,6 @@ class DocsController < ApplicationController
     end
 
     def destroy
-        puts "**********************"
-        puts "**********************"
-        puts "**********************"
-        puts "**********************"
-        puts "**********************"
         @doc.destroy
         redirect_to docs_path
     end
